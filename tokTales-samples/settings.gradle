@@ -1,0 +1,3 @@
+include ':tokTales-samples-android', ':tokTales-samples-desktop', ':tokTales-samples-core'
+
+rootProject.name='tokTales-samples'

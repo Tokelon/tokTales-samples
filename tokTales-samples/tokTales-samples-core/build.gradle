@@ -1,0 +1,18 @@
+/* Core module that contains code that is shared between platform modules.
+ */
+group "com.tokelon.toktales"
+version "0.2.0"
+
+
+apply plugin: 'java-library'
+
+
+dependencies {
+    // Core library for tokTales Engine
+    api 'com.tokelon.toktales:tokTales-core-library:0.2.0'
+}
+
+
+// Java version compatibility
+sourceCompatibility = "8"
+targetCompatibility = "8"
