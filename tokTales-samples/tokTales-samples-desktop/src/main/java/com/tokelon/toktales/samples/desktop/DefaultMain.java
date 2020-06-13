@@ -7,6 +7,7 @@ public class DefaultMain {
 
 
 	public static void main(String[] args) throws EngineException {
+		// The main method only needs to run the application
 		new DefaultApplication().run(args);
 	}
 
