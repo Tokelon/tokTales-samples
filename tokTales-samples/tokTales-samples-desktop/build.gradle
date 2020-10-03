@@ -1,7 +1,7 @@
 /* Desktop module that contains code that is specific for the Desktop platform.
  */
 group "com.tokelon.toktales"
-version "0.2.0"
+version "0.2.1"
 
 
 apply plugin: 'application'
@@ -20,7 +20,7 @@ dependencies {
     implementation project(':tokTales-samples-core')
 
     // Desktop library for tokTales Engine
-    implementation 'com.tokelon.toktales:tokTales-desktop-library:0.2.0'
+    implementation 'com.tokelon.toktales:tokTales-desktop-library:0.2.1'
 
     // Runtime dependency for logging
     runtimeOnly 'ch.qos.logback:logback-classic:1.2.3'
